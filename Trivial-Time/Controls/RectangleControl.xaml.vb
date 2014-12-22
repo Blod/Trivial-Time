@@ -29,7 +29,6 @@ Partial Public Class RectangleControl
 
     Public Sub New()
         MyBase.New()
-
         Me.InitializeComponent()
     End Sub
 
