@@ -52,6 +52,7 @@
     <Reference Include="Microsoft.Expression.Drawing" />
     <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System" />
@@ -72,6 +73,7 @@
     <Compile Include="Controls\WedgeControl.xaml.vb">
       <DependentUpon>WedgeControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Player.vb" />
     <Compile Include="Question.vb" />
     <Compile Include="QuestionReceiver.vb" />
     <Page Include="Controls\HexagonControl.xaml">
@@ -158,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
