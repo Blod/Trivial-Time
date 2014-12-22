@@ -1,0 +1,60 @@
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.exe.config
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.exe
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.pdb
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.xml
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\MainWindow.baml
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\MainWindow.g.vb
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Application.g.vb
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time_MarkupCompile.cache
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.g.resources
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial_Time.Resources.resources
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.vbproj.GenerateResource.Cache
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.exe
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.xml
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.pdb
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\CenterHexagon.baml
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\CenterHexagon.g.vb
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\GeneratedInternalTypeHelper.g.vb
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time_MarkupCompile.lref
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\RectangleButton.baml
+G:\Development\Projects\Trivial-Time\Trivial-Time\obj\Debug\RectangleButton.g.vb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.exe.config
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.exe
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.xml
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.pdb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.exe
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.pdb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\Trivial-Time.xml
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\MainWindow.g.vb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Application.g.vb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time_MarkupCompile.cache
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time_MarkupCompile.lref
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\MainWindow.baml
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.g.resources
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial_Time.Resources.resources
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Trivial-Time.vbproj.GenerateResource.Cache
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Controls\HexagonControl.baml
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Controls\HexagonControl.g.vb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\GeneratedInternalTypeHelper.g.vb
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Controls\RectangleControl.baml
+G:\Development\C# - VB\Projects\Trivial-Time\Trivial-Time\obj\Debug\Controls\RectangleControl.g.vb
