@@ -7,9 +7,10 @@
 	mc:Ignorable="d"
 	x:Class="HexagonControl"
 	x:Name="UserControl"
-	d:DesignWidth="481.791" d:DesignHeight="480" Width="480" Height="480">
+	d:DesignWidth="450.291" d:DesignHeight="388.5" Width="Auto" Height="Auto">
 
-	<Grid x:Name="LayoutRoot" Width="{Binding Width, ElementName=UserControl}" Height="{Binding Height, ElementName=UserControl}">
-		<ed:RegularPolygon x:Name="Hexagon" StrokeStartLineCap="Round" StrokeLineJoin="Round" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="Black" Height="{Binding Height, ElementName=LayoutRoot}" Width="{Binding Width, ElementName=LayoutRoot}" Fill="#FF858585"/>
-	</Grid>
+	<Grid x:Name="LayoutRoot">
+        <Polygon x:Name="MainHexagon" Points="50,0,161,0,215,93,161,186,53,186,0,93" Stretch="Uniform" Fill="#FF999999" />
+        <Polygon x:Name="InnerHexagon" Points="50,0,161,0,215,93,161,186,53,186,0,93" Stretch="Uniform" Stroke="White" StrokeThickness="5" Margin="10" />
+    </Grid>
 </UserControl>

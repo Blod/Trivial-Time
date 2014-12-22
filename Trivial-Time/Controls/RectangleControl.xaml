@@ -7,8 +7,9 @@
 	x:Class="RectangleControl"
 	x:Name="UserControl" d:DesignWidth="740.896" d:DesignHeight="417.015">
 
-	<Grid x:Name="LayoutRoot" Width="{Binding Width, ElementName=UserControl}" Height="{Binding Height, ElementName=UserControl}">
-		<Rectangle x:Name="Rectangle" Fill="#FF858585" HorizontalAlignment="Left" Stroke="Black" RadiusX="3" RadiusY="3" VerticalAlignment="Top" Width="{Binding Width, ElementName=LayoutRoot}" Height="{Binding Height, ElementName=LayoutRoot}"/>
-		<Image x:Name="Image" HorizontalAlignment="Left" VerticalAlignment="Top" Width="{Binding Width, ElementName=Rectangle}" Height="{Binding Height, ElementName=Rectangle}"/>
-	</Grid>
+    <Grid x:Name="LayoutRoot">
+        <Rectangle x:Name="MainRectangle" Fill="#FF999999" RadiusX="3" RadiusY="3" Margin="0" Grid.IsSharedSizeScope="True"/>
+        <Rectangle x:Name="InnerRectangle" RadiusY="3" RadiusX="3" Margin="3" StrokeThickness="3" Stroke="White" Stretch="Fill" Grid.IsSharedSizeScope="True" UseLayoutRounding="False"/>
+        <Image x:Name="Image" Margin="0,30,30,30" HorizontalAlignment="Right" Width="681"/>
+    </Grid>
 </UserControl>
