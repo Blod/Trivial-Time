@@ -69,6 +69,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\WedgeControl.xaml.vb">
+      <DependentUpon>WedgeControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Question.vb" />
     <Compile Include="QuestionReceiver.vb" />
     <Page Include="Controls\HexagonControl.xaml">
@@ -76,6 +79,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\RectangleControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\WedgeControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

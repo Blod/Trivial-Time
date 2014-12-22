@@ -1,7 +1,7 @@
 ﻿Public Class Question
 
     Private _question As String
-    Private _answers(2) As String
+    Private _answers(3) As String
     Private _correctAnswer As String
 
     Public Property Question() As String

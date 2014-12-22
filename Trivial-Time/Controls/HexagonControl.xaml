@@ -10,6 +10,6 @@
 	d:DesignWidth="481.791" d:DesignHeight="480" Width="480" Height="480">
 
 	<Grid x:Name="LayoutRoot" Width="{Binding Width, ElementName=UserControl}" Height="{Binding Height, ElementName=UserControl}">
-		<ed:RegularPolygon x:Name="Hexagon" Fill="#FF858585" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="Black" StrokeLineJoin="Round" Height="{Binding Height, ElementName=LayoutRoot}" Width="{Binding Width, ElementName=LayoutRoot}"/>
+		<ed:RegularPolygon x:Name="Hexagon" StrokeStartLineCap="Round" StrokeLineJoin="Round" Fill="#FF858585" InnerRadius="1" PointCount="6" Stretch="Fill" Stroke="Black" Height="{Binding Height, ElementName=LayoutRoot}" Width="{Binding Width, ElementName=LayoutRoot}"/>
 	</Grid>
 </UserControl>

@@ -4,6 +4,16 @@
     xmlns:local="clr-namespace:Trivial_Time" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MainWindow"
     Title="Trivial Time" d:DesignWidth="1020" d:DesignHeight="843">
     <Grid x:Name="MainGrid">
+        <local:WedgeControl Margin="335,267,491,445" RenderTransformOrigin="0.5,0.5">
+            <local:WedgeControl.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-28.298"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </local:WedgeControl.RenderTransform>
+        </local:WedgeControl>
         <local:HexagonControl x:Name="CenterHex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="440,366,0,0" Height="125" Width="125"/>
         <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="70" Margin="429,357,0,0" RenderTransformOrigin="0.5,0.5">
             <local:RectangleControl.RenderTransform>
