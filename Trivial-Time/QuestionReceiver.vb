@@ -6,7 +6,7 @@ Public Class QuestionReceiver
     Private _connection As New MySqlConnection(_connecttionString)
     Public Event QuestionsReceived()
 
-    Public Sub LoadQuestions()
+    Public Sub retrieveQuestions()
         _connection.Open()
         Dim Command As New MySqlCommand("SELECT * FROM question;", _connection)
         Dim dr As MySqlDataReader = Command.ExecuteReader()
