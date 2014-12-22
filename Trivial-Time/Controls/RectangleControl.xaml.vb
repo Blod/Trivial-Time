@@ -25,14 +25,6 @@ Partial Public Class RectangleControl
         End Set
     End Property
 
-    Public Property isAvailable() As Boolean
-        Get
-            Return _available
-        End Get
-        Set(ByVal value As Boolean)
-            _available = value
-        End Set
-    End Property
 
 
     Public Sub New()
