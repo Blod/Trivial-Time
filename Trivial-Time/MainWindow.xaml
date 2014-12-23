@@ -10,5 +10,6 @@
         <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,196,0,0" Category="Science"/>
         <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,167,0,0" Category="Geography"/>
         <local:RectangleControl HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="64" Margin="467,138,0,0" Category="Arts_and_Literature"/>
+        <local:WedgeControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="78" Width="122" Margin="438,55,0,0" Category="History"/>
     </Grid>
 </Window>

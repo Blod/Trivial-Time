@@ -21,20 +21,13 @@ Partial Public Class WedgeControl
         Set(ByVal value As category)
             _category = value
             Select Case _category
-                Case Trivial_Time.category.Geography : Wedge.Fill = Brushes.DodgerBlue
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.Entertainment : Wedge.Fill = Brushes.DarkViolet
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.History : Wedge.Fill = Brushes.Goldenrod
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.Arts_and_Literature : Wedge.Fill = Brushes.Firebrick
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.Science : Wedge.Fill = Brushes.ForestGreen
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.Sports : Wedge.Fill = Brushes.DarkOrange
-                    Wedge.Stroke = Nothing
-                Case Trivial_Time.category.None : Wedge.Fill = Brushes.Gray
-                    Wedge.Stroke = Nothing
+                Case Trivial_Time.category.Geography : MainWedge.Fill = Brushes.DodgerBlue
+                Case Trivial_Time.category.Entertainment : MainWedge.Fill = Brushes.DarkViolet
+                Case Trivial_Time.category.History : MainWedge.Fill = Brushes.Gold
+                Case Trivial_Time.category.Arts_and_Literature : MainWedge.Fill = Brushes.Firebrick
+                Case Trivial_Time.category.Science : MainWedge.Fill = Brushes.ForestGreen
+                Case Trivial_Time.category.Sports : MainWedge.Fill = Brushes.DarkOrange
+                Case Trivial_Time.category.None : MainWedge.Fill = Brushes.Gray
                 Case Else : Throw New Exception("Unspecified category")
             End Select
         End Set

@@ -25,7 +25,7 @@ Partial Public Class RectangleControl
             Select Case _category
                 Case Trivial_Time.category.Geography : MainRectangle.Fill = Brushes.DodgerBlue
                 Case Trivial_Time.category.Entertainment : MainRectangle.Fill = Brushes.DarkViolet
-                Case Trivial_Time.category.History : MainRectangle.Fill = Brushes.Goldenrod
+                Case Trivial_Time.category.History : MainRectangle.Fill = Brushes.Gold
                 Case Trivial_Time.category.Arts_and_Literature : MainRectangle.Fill = Brushes.Firebrick
                 Case Trivial_Time.category.Science : MainRectangle.Fill = Brushes.ForestGreen
                 Case Trivial_Time.category.Sports : MainRectangle.Fill = Brushes.DarkOrange
