@@ -16,6 +16,15 @@ Partial Public Class RectangleControl
 
     Private _category As category
 
+    Private Sub button_MouseEnter() Handles UserControl.MouseEnter
+        MainRectangle.StrokeThickness = 2
+        MainRectangle.Stroke = Brushes.Black
+    End Sub
+
+    Private Sub button_MouseLeave() Handles UserControl.MouseLeave
+        MainRectangle.StrokeThickness = 0
+    End Sub
+
     Public Property Category() As category
         Get
             Return _category

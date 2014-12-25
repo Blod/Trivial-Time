@@ -13,6 +13,16 @@ Imports System.Windows.Shapes
 #End Region
 
 Partial Public Class HexagonControl
+
+    Private Sub button_MouseEnter() Handles UserControl.MouseEnter
+        MainHexagon.StrokeThickness = 2
+        MainHexagon.Stroke = Brushes.Black
+    End Sub
+
+    Private Sub button_MouseLeave() Handles UserControl.MouseLeave
+        MainHexagon.StrokeThickness = 0
+    End Sub
+
     Public Sub New()
         MyBase.New()
 

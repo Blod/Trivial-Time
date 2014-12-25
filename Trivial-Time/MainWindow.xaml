@@ -4,12 +4,7 @@
     xmlns:local="clr-namespace:Trivial_Time" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MainWindow"
     Title="Trivial Time" d:DesignWidth="1105" d:DesignHeight="893" Width="1024" Height="768" HorizontalAlignment="Right">
     <Grid x:Name="MainGrid">
-        <local:HexagonControl Margin="435,283,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="129" Height="116"/>
-        <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,254,0,0" Category="Sports"/>
-        <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,225,0,0" Category="Entertainment"/>
-        <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,196,0,0" Category="Science"/>
-        <local:RectangleControl HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="64" Margin="467,167,0,0" Category="Geography"/>
-        <local:RectangleControl HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="64" Margin="467,138,0,0" Category="Arts_and_Literature"/>
-        <local:WedgeControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="78" Width="122" Margin="438,55,0,0" Category="History"/>
+        <local:HexagonControl Margin="445,401,446,227" Padding="0"/>
+        <local:RectangleControl Margin="475,363,478,341" Padding="0" Category="Geography"/>
     </Grid>
 </Window>

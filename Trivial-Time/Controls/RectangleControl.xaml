@@ -6,10 +6,79 @@
 	mc:Ignorable="d"
 	x:Class="RectangleControl"
 	x:Name="UserControl" d:DesignWidth="740.896" d:DesignHeight="417.015">
+	<UserControl.Resources>
+		<Storyboard x:Key="FlashUp">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="MainRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="InnerRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="Image">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="MainRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="InnerRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="Image">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="FlashDown">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="MainRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="MainRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="InnerRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="InnerRectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="Image">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="Image">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.9"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
 
     <Grid x:Name="LayoutRoot">
-        <Rectangle x:Name="MainRectangle" Fill="#FF999999" RadiusX="3" RadiusY="3" Margin="0" Grid.IsSharedSizeScope="True"/>
-        <Rectangle x:Name="InnerRectangle" RadiusY="3" RadiusX="3" Margin="3" StrokeThickness="3" Stroke="White" Stretch="Fill" Grid.IsSharedSizeScope="True" UseLayoutRounding="False"/>
-        <Image x:Name="Image" Margin="0,30,30,30" HorizontalAlignment="Right" Width="681"/>
+        <Rectangle x:Name="MainRectangle" Fill="#FF999999" RadiusX="3" RadiusY="3" Margin="0" Grid.IsSharedSizeScope="True" RenderTransformOrigin="0.5,0.5">
+        	<Rectangle.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="InnerRectangle" RadiusY="3" RadiusX="3" Margin="3" StrokeThickness="3" Stroke="White" Stretch="Fill" Grid.IsSharedSizeScope="True" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5">
+        	<Rectangle.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="Image" Margin="0,30,30,30" HorizontalAlignment="Right" Width="681" RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</Image.RenderTransform>
+        </Image>
     </Grid>
 </UserControl>
