@@ -4,7 +4,9 @@
     xmlns:local="clr-namespace:Trivial_Time" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MainWindow"
     Title="Trivial Time" d:DesignWidth="1105" d:DesignHeight="893" Width="1024" Height="768" HorizontalAlignment="Right">
     <Grid x:Name="MainGrid">
-        <local:HexagonControl Margin="445,401,446,227" Padding="0"/>
-        <local:RectangleControl Margin="475,363,478,341" Padding="0" Category="Geography"/>
+    	<local:RectangleControl HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422.409,295,0,0" Width="91.25" Height="40" Category="Geography"/>
+    	<local:HexagonControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="155" Margin="380,340,0,0" Width="178.909"/>
+    	<local:RectangleControl HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422.409,250,0,0" Width="91.25" Height="40" Category="Entertainment"/>
+    	<local:RectangleControl HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422.409,205,0,0" Width="91.25" Height="40" Category="History"/>
     </Grid>
 </Window>

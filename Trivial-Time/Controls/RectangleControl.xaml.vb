@@ -15,15 +15,7 @@ Imports System.Windows.Shapes
 Partial Public Class RectangleControl
 
     Private _category As category
-
-    Private Sub button_MouseEnter() Handles UserControl.MouseEnter
-        MainRectangle.StrokeThickness = 2
-        MainRectangle.Stroke = Brushes.Black
-    End Sub
-
-    Private Sub button_MouseLeave() Handles UserControl.MouseLeave
-        MainRectangle.StrokeThickness = 0
-    End Sub
+    Private _categoryBrush As Brush
 
     Public Property Category() As category
         Get
@@ -41,8 +33,31 @@ Partial Public Class RectangleControl
                 Case Trivial_Time.category.None : MainRectangle.Fill = Brushes.Gray
                 Case Else : Throw New Exception("Unspecified category")
             End Select
+            _categoryBrush = MainRectangle.Fill
         End Set
     End Property
+
+#Region "Visual Handlers"
+    Private Sub button_MouseEnter() Handles UserControl.MouseEnter
+        MainRectangle.StrokeThickness = 2
+        MainRectangle.Stroke = Brushes.Black
+    End Sub
+
+    Private Sub button_MouseLeave() Handles UserControl.MouseLeave
+        MainRectangle.StrokeThickness = 0
+    End Sub
+
+    Private Sub button_MouseDown() Handles UserControl.MouseDown
+        MainRectangle.Fill = Brushes.White
+    End Sub
+
+    Private Sub button_MouseUp() Handles UserControl.MouseUp
+        MainRectangle.Fill = _categoryBrush
+    End Sub
+
+#End Region
+
+   
 
     Public Sub New()
         MyBase.New()

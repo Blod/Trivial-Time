@@ -33,6 +33,14 @@ Partial Public Class WedgeControl
         End Set
     End Property
 
+    Private Sub button_MouseEnter() Handles UserControl.MouseEnter
+        MainWedge.StrokeThickness = 2
+        MainWedge.Stroke = Brushes.Black
+    End Sub
+
+    Private Sub button_MouseLeave() Handles UserControl.MouseLeave
+        MainWedge.StrokeThickness = 0
+    End Sub
 
     Public Sub New()
         MyBase.New()

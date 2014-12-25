@@ -1,6 +1,8 @@
 ﻿Public Class Player
 
     Private _name As String
+    Private _position As Control
+    Private _color As Color
 
     Private _geography As Boolean
     Private _entertainment As Boolean
