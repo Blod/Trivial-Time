@@ -50,7 +50,7 @@
 	</UserControl.Resources>
 
     <Grid x:Name="LayoutRoot">
-        <Rectangle x:Name="MainRectangle" Fill="#FF999999" RadiusX="3" RadiusY="3" Margin="0" Grid.IsSharedSizeScope="True" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="MainRectangle" Fill="Gray" RadiusX="3" RadiusY="3" Margin="0" Grid.IsSharedSizeScope="True" RenderTransformOrigin="0.5,0.5">
         	<Rectangle.RenderTransform>
         		<TransformGroup>
         			<ScaleTransform/>

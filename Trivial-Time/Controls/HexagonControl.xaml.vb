@@ -14,6 +14,8 @@ Imports System.Windows.Shapes
 
 Partial Public Class HexagonControl
 
+    Private _originalBrush = Brushes.Gray
+
     Private Sub button_MouseEnter() Handles UserControl.MouseEnter
         MainHexagon.StrokeThickness = 2
         MainHexagon.Stroke = Brushes.Black
@@ -21,6 +23,15 @@ Partial Public Class HexagonControl
 
     Private Sub button_MouseLeave() Handles UserControl.MouseLeave
         MainHexagon.StrokeThickness = 0
+        MainHexagon.Fill = _originalBrush
+    End Sub
+
+    Private Sub button_MouseDown() Handles UserControl.MouseDown
+        MainHexagon.Fill = Brushes.White
+    End Sub
+
+    Private Sub button_MouseUp() Handles UserControl.MouseUp
+        MainHexagon.Fill = _originalBrush
     End Sub
 
     Public Sub New()

@@ -45,6 +45,7 @@ Partial Public Class RectangleControl
 
     Private Sub button_MouseLeave() Handles UserControl.MouseLeave
         MainRectangle.StrokeThickness = 0
+        MainRectangle.Fill = _categoryBrush
     End Sub
 
     Private Sub button_MouseDown() Handles UserControl.MouseDown

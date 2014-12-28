@@ -13,6 +13,7 @@ Imports System.Windows.Shapes
 Partial Public Class WedgeControl
 
     Private _category As category
+    Private _categoryBrush As Brush
 
     Public Property Category() As category
         Get
@@ -30,6 +31,7 @@ Partial Public Class WedgeControl
                 Case Trivial_Time.category.None : MainWedge.Fill = Brushes.Gray
                 Case Else : Throw New Exception("Unspecified category")
             End Select
+            _categoryBrush = MainWedge.Fill
         End Set
     End Property
 
@@ -40,6 +42,15 @@ Partial Public Class WedgeControl
 
     Private Sub button_MouseLeave() Handles UserControl.MouseLeave
         MainWedge.StrokeThickness = 0
+        MainWedge.Fill = _categoryBrush
+    End Sub
+
+    Private Sub button_MouseDown() Handles UserControl.MouseDown
+        MainWedge.Fill = Brushes.White
+    End Sub
+
+    Private Sub button_MouseUp() Handles UserControl.MouseUp
+        MainWedge.Fill = _categoryBrush
     End Sub
 
     Public Sub New()

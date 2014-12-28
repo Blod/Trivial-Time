@@ -10,7 +10,7 @@
 	d:DesignWidth="450.291" d:DesignHeight="388.5" Width="Auto" Height="Auto">
 
 	<Grid x:Name="LayoutRoot">
-        <Polygon x:Name="MainHexagon" Points="50,0,161,0,215,93,161,186,53,186,0,93" Stretch="Uniform" Fill="#FF999999" />
+        <Polygon x:Name="MainHexagon" Points="50,0,161,0,215,93,161,186,53,186,0,93" Stretch="Uniform" Fill="Gray" />
         <Polygon x:Name="InnerHexagon" Points="50,0,161,0,215,93,161,186,53,186,0,93" Stretch="Uniform" Stroke="White" StrokeThickness="5" Margin="10" />
     </Grid>
 </UserControl>

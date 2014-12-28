@@ -10,7 +10,7 @@
 	d:DesignWidth="640" d:DesignHeight="480">
 
 	<Grid x:Name="LayoutRoot" Width="{Binding Width, ElementName=UserControl}" Height="{Binding Height, ElementName=UserControl}">
-		<Polygon x:Name="MainWedge" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Stretch="Uniform" Points="0, 15, 20, 10, 40, 7, 60, 5, 90 ,3, 120, 5, 140, 7, 160, 10, 180, 15, 140, 120, 40, 120" Width="{Binding Width, ElementName=LayoutRoot}" Height="{Binding Height, ElementName=LayoutRoot}" Fill="#FF999999"/>
+		<Polygon x:Name="MainWedge" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Stretch="Uniform" Points="0, 15, 20, 10, 40, 7, 60, 5, 90 ,3, 120, 5, 140, 7, 160, 10, 180, 15, 140, 120, 40, 120" Width="{Binding Width, ElementName=LayoutRoot}" Height="{Binding Height, ElementName=LayoutRoot}" Fill="Gray"/>
 		<Polygon x:Name="InnerWedge" Points="0, 15, 20, 10, 40, 7, 60, 5, 90 ,3, 120, 5, 140, 7, 160, 10, 180, 15, 140, 120, 40, 120" StrokeThickness="3" Stroke="White" Stretch="Uniform" Margin="3"/>
 	</Grid>
 </UserControl>
