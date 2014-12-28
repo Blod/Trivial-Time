@@ -317,7 +317,7 @@
                 </TransformGroup>
             </local:RectangleControl.RenderTransform>
         </local:RectangleControl>
-        <local:WedgeControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="107" Margin="487,448,0,0" Category="Sports" RenderTransformOrigin="0.5,0.5">
+        <local:WedgeControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="107" Margin="487,448,0,0" Category="Entertainment" RenderTransformOrigin="0.5,0.5">
             <local:WedgeControl.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
